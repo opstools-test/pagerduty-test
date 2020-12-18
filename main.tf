@@ -4,7 +4,7 @@ provider "pagerduty" {
 }
 
 # Create a PagerDuty team
-resource "pagerduty_team" "test_team2" {
+resource "pagerduty_team" "test_team" {
     name = "Engineering"
     description = "All engineers in Test Team2"
 }
